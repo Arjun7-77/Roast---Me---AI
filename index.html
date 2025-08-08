@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>🔥 Roast Me AI 🔥</title>
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Comic+Neue:wght@400;700&display=swap" rel="stylesheet">
+</head>
+<body>
+    <div class="container">
+        <header>
+            <h1 class="title">🔥 Roast Me AI 🔥</h1>
+            <p class="subtitle">Prepare to get absolutely destroyed! 💀</p>
+        </header>
+
+        <main>
+            <div class="input-section">
+                <div class="input-group">
+                    <label for="nameInput" class="input-label">Enter your name (optional):</label>
+                    <input 
+                        type="text" 
+                        id="nameInput" 
+                        placeholder="Your name here..."
+                        class="name-input"
+                    >
+                </div>
+
+                <div class="input-group">
+                    <label for="imageInput" class="input-label">Upload an image to roast:</label>
+                    <input type="file" id="imageInput" accept="image/*" class="file-input" />
+                    
+                    <div id="previewWrap" class="preview-wrap" style="display: none;">
+                        <p class="preview-label">Preview:</p>
+                        <img id="imagePreview" class="image-preview" alt="Image preview">
+                    </div>
+                </div>
+
+                <button id="roastBtn" class="roast-button">
+                    🔥 ROAST ME! 🔥
+                </button>
+            </div>
+
+            <div class="loading-section" id="loadingSection" style="display: none;">
+                <div class="loading-spinner"></div>
+                <p class="loading-text">Cooking up your roast... 🔥</p>
+            </div>
+
+            <div class="result-section" id="resultSection" style="display: none;">
+                <h2 class="result-title">🔥 Your Roast 🔥</h2>
+                <div class="roast-content" id="roastContent"></div>
+                <div class="audio-controls">
+                    <button id="tellMeBtn" class="tell-me-button">
+                        🗣️ Tell Me
+                    </button>
+                </div>
+                <button id="newRoastBtn" class="new-roast-button">
+                    🔥 Get Another Roast! 🔥
+                </button>
+            </div>
+
+            <div class="error-section" id="errorSection" style="display: none;">
+                <h2 class="error-title">💥 Oops! 💥</h2>
+                <p class="error-text" id="errorText"></p>
+                <button id="retryBtn" class="retry-button">
+                    🔄 Try Again
+                </button>
+            </div>
+        </main>
+
+        <footer>
+            <p class="footer-text">⚠️ Warning: This AI doesn't hold back! Enter at your own risk! ⚠️</p>
+        </footer>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
