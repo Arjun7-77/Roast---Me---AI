@@ -57,66 +57,34 @@ Installation
 bash
 Copy
 Edit
-# Clone repository
+### Clone repository
 git clone https://github.com/username/roast-me-ai.git
 
-# Install dependencies
+### Install dependencies
 npm install   # for frontend
 pip install -r requirements.txt   # for backend
 Run
 bash
 Copy
 Edit
-# Start backend
+### Start backend
 python app.py
 
-# Start frontend
+### Start frontend
 npm run dev
-# Screenshots (Add at least 3)
-![Screenshot1](Add screenshot 1 here with proper name)
-*Add caption explaining what this shows*
+## Screenshots
+<img width="1319" height="697" alt="image" src="https://github.com/user-attachments/assets/1c7054c5-b21c-4cfc-951d-c30bf2fd58e2" />
 
-![Screenshot2](Add screenshot 2 here with proper name)
-*Add caption explaining what this shows*
 
-![Screenshot3](Add screenshot 3 here with proper name)
-*Add caption explaining what this shows*
+<img width="1317" height="1037" alt="image" src="https://github.com/user-attachments/assets/5892ad3a-f3d8-4bac-97a2-22b54745d2a5" />
 
-# Diagrams
-![Workflow](Add your workflow/architecture diagram here)
-*Add caption explaining your workflow*
+<img width="1319" height="1300" alt="image" src="https://github.com/user-attachments/assets/e0bcf6a4-d1f4-4f62-b039-802c841e7558" />
 
-For Hardware:
 
-# Schematic & Circuit
-![Circuit](Add your circuit diagram here)
-*Add caption explaining connections*
-
-![Schematic](Add your schematic diagram here)
-*Add caption explaining the schematic*
-
-# Build Photos
-![Components](Add photo of your components here)
-*List out all components shown*
-
-![Build](Add photos of build process here)
-*Explain the build steps*
-
-![Final](Add photo of final product here)
-*Explain the final build*
-
-### Project Demo
-# Video
-[Add your demo video link here]
-*Explain what the video demonstrates*
-
-# Additional Demos
-[Add any extra demo materials/links]
 
 ## Team Contributions
-- [Name 1]: [Specific contributions]
-- [Name 2]: [Specific contributions]
-- [Name 3]: [Specific contributions]
+- [Arjun K S]: [Team leader]
+- [Ebin K B]: [ Member]
 
 ---
 Made with ❤️ at TinkerHub Useless Projects 
